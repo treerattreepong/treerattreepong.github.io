@@ -1,0 +1,48 @@
+a#more{
+    text-decoration: #4A99E9 underline 4px;
+    font-weight: bold;
+}
+h1,p{
+    color: white;
+}
+h1{
+    margin-left: 10%;
+    margin-bottom: 20px;
+    font-size:2rem;
+}
+p{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 1rem;
+}
+img{
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+div.box{
+    padding: 10px;
+}
+small.ps{
+   margin-left: 10%;
+    font-size: .8rem;
+    color: rgba(220, 220, 220, 0.84);
+}
+div.post{
+    background-color: #2E363F;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 10px;
+    height: max-content;
+}
+
+@media screen and (max-width: 600px){
+    
+}

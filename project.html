@@ -1,0 +1,57 @@
+<!-- ตรีรัตน์ ตรีพงษ์ 653380093-9 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style_all.css">
+    <link rel="stylesheet" href="./flex.css">
+    <title>Home</title>
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="./index.html" class="active">cap_cs</a>
+            <a href="./more.html" id="more" class="bold">more</a>
+            <a href="./workings.html" id="workings" class="bold" >workings</a>
+            <a href="./about.html" id="about" class="bold">about</a>
+            <a href="./index.html" id="home" class="bold">home</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a> 
+    </div>
+    <main>
+        
+        <div class="boxx">
+            <p>ส่วนที่รับผิดชอบ :</p>
+            <div class="sm_box">
+                <center><img src="./photo/project_2.png" alt="..." class="frees" title="หน้าเมนูอาหาร"><br>
+                <img src="./photo/project_1.png" alt="..." class="frees" title="หน้าส่วนผมและวิธีการ">
+                <br>
+                <img src="./photo/project_3.png" alt="..." class="frees"title="หน้าม้ออาหาร"></center>
+        </div>
+    </div>
+     </main>
+     <footer>
+         <small>TREERAT TREEPONG</small><br>
+         <small>653380093-9</small>
+     </footer>
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
